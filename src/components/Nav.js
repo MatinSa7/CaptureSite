@@ -6,13 +6,13 @@ const Nav = () => {
   return (
     <StyledNav>
       <h1>
-        <Link id="logo" to="/">
+        <Link id="logo" to="/CaptureSite/">
           Capture
         </Link>
       </h1>
       <ul>
         <li>
-          <Link to="/">1. About Us</Link>
+          <Link to="/CaptureSite/">1. About Us</Link>
         </li>
         <li>
           <Link to="/Work">2. Our Work</Link>
