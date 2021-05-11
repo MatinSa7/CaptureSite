@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { StyledAbout } from "../Styles";
+import Toggle from "../components/Toggle";
 
 const StyledFaq = styled(StyledAbout)`
   display: block;
@@ -37,17 +38,19 @@ const FaqSection = () => {
         <h2>
           Any Questions? <span>FAQ</span>
         </h2>
-        <div className="question">
-          <h4>How do I start?</h4>
-          <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
-              atque.
-            </p>
+        <Toggle>
+          <div className="question">
+            <h4>How do I start?</h4>
+            <div className="answer">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
+                atque.
+              </p>
+            </div>
+            <div className="faq-line"></div>
           </div>
-          <div className="faq-line"></div>
-        </div>
+        </Toggle>
         <div className="question">
           <h4>Daily schedule</h4>
           <div className="answer">
