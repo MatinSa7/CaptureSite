@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { StyledAbout } from "../Styles";
 import Toggle from "../components/Toggle";
+import { AnimateSharedLayout } from "framer-motion";
+import { useScroll } from "./useScroll";
+import { scrollReveal } from "../animation";
 
 const StyledFaq = styled(StyledAbout)`
   display: block;
@@ -32,48 +35,56 @@ const StyledFaq = styled(StyledAbout)`
 `;
 
 const FaqSection = () => {
+  const [element, controls] = useScroll();
   return (
     <>
-      <StyledFaq>
+      <StyledFaq
+        variants={scrollReveal}
+        ref={element}
+        animate={controls}
+        initial="hidden"
+      >
         <h2>
           Any Questions? <span>FAQ</span>
         </h2>
-        <Toggle title="How do I start?">
-          <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
-              atque.
-            </p>
-          </div>
-        </Toggle>
-        <Toggle title="Daily schedule">
-          <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
-              atque.
-            </p>
-          </div>
-        </Toggle>
-        <Toggle title="Different payment methods">
-          <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
-              atque.
-            </p>
-          </div>
-        </Toggle>
-        <Toggle title="What products do you offer?">
-          <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
-              atque.
-            </p>
-          </div>
-        </Toggle>
+        <AnimateSharedLayout>
+          <Toggle title="How do I start?">
+            <div className="answer">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
+                atque.
+              </p>
+            </div>
+          </Toggle>
+          <Toggle title="Daily schedule">
+            <div className="answer">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
+                atque.
+              </p>
+            </div>
+          </Toggle>
+          <Toggle title="Different payment methods">
+            <div className="answer">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
+                atque.
+              </p>
+            </div>
+          </Toggle>
+          <Toggle title="What products do you offer?">
+            <div className="answer">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
+                atque.
+              </p>
+            </div>
+          </Toggle>
+        </AnimateSharedLayout>
       </StyledFaq>
     </>
   );
