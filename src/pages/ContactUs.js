@@ -49,7 +49,7 @@ const ContactStyled = styled(motion.div)`
   color: #353535;
   min-height: 90vh;
   @media (max-width: 1500px) {
-    padding: rem;
+    padding: 2rem;
     font-size: 1rem;
   }
 `;
