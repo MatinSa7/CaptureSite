@@ -72,6 +72,9 @@ const StyledServices = styled(StyledAbout)`
 `;
 
 const StyledCards = styled.div`
+  @media (max-width: 1300px) {
+    justify-content: center;
+  }
   display: flex;
   flex-wrap: wrap;
 `;
