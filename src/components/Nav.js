@@ -26,6 +26,7 @@ const Nav = () => {
 };
 
 const StyledNav = styled.nav`
+  position: sticky;
   min-height: 10vh;
   display: flex;
   margin: auto;
@@ -33,6 +34,8 @@ const StyledNav = styled.nav`
   align-items: center;
   padding: 1rem 10rem;
   background-color: #282828;
+  top: 0;
+  z-index: 10;
   a {
     color: white;
     text-decoration: none;
