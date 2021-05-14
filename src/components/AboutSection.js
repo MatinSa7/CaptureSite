@@ -7,7 +7,7 @@ import { titleAnim, fade, photoAnim } from "../animation";
 import Wave from "../components/Wave";
 
 import {
-  StyledAbout,
+  StyledAboutBackground,
   StyledDescription,
   StyledImage,
   StyledHide,
@@ -15,7 +15,7 @@ import {
 
 const AboutSection = () => {
   return (
-    <StyledAbout className="about">
+    <StyledAboutBackground className="about">
       <StyledDescription>
         <motion.div>
           <StyledHide>
@@ -36,12 +36,18 @@ const AboutSection = () => {
         </motion.p>
         <motion.button variants={fade}>Contact Us</motion.button>
       </StyledDescription>
-      <StyledImage className="image">
-        <motion.img variants={photoAnim} src={home1} alt="Guy with a camera" />
-      </StyledImage>
+
       <Wave />
-    </StyledAbout>
+    </StyledAboutBackground>
   );
 };
 
 export default AboutSection;
+
+export const StyledImageBackground = styled.div`
+  img {
+    width: 80vh;
+    height: 80vh;
+    object-fit: cover;
+  }
+`;

@@ -25,43 +25,64 @@ const ServicesSection = () => {
         <StyledCards>
           <StyledCard>
             <div className="icon">
-              <embed style={{margin: "0rem 0rem 0rem 3.2rem"}} src={clock} alt="clock" />
-              <h3 style={{margin: "0rem 0rem 0rem 2rem"}}>EFFICIENT</h3>
+              <embed
+                style={{ margin: "0rem 0rem 0rem 3.2rem" }}
+                src={clock}
+                alt="clock"
+              />
+              <h3 style={{ margin: "0rem 0rem 0rem 2rem" }}>EFFICIENT</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </StyledCard>
           <StyledCard>
             <div className="icon">
-              <embed style={{margin: "0rem 0rem 0rem 3.6rem"}} src={teamwork} alt="teamwork" />
-              <h3 style={{margin: "0rem 0rem 0rem 1.5rem"}}>TEAMWORK</h3>
+              <embed
+                style={{ margin: "0rem 0rem 0rem 3.6rem" }}
+                src={teamwork}
+                alt="teamwork"
+              />
+              <h3 style={{ margin: "0rem 0rem 0rem 1.5rem" }}>TEAMWORK</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </StyledCard>
 
           <StyledCard>
             <div className="icon">
-              <embed style={{margin: "0rem 0rem 0rem 3.6rem"}} src={diaphragm} alt="diaphragm" />
-              <h3 style={{margin: "0rem 0rem 0rem 1.4rem"}}>DIAPHRAGM</h3>
+              <embed
+                style={{ margin: "0rem 0rem 0rem 3.6rem" }}
+                src={diaphragm}
+                alt="diaphragm"
+              />
+              <h3 style={{ margin: "0rem 0rem 0rem 1.4rem" }}>DIAPHRAGM</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </StyledCard>
           <StyledCard>
             <div className="icon">
-              <embed style={{margin: "0rem 0rem 0rem 3.7rem"}} src={money} alt="money" />
-              <h3 style={{margin: "0rem 0rem 0rem 1.1rem"}}>AFFORDABLE</h3>
+              <embed
+                style={{ margin: "0rem 0rem 0rem 3.7rem" }}
+                src={money}
+                alt="money"
+              />
+              <h3 style={{ margin: "0rem 0rem 0rem 1.1rem" }}>AFFORDABLE</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </StyledCard>
         </StyledCards>
       </StyledDescription>
+      {/*
       <StyledImage>
         <embed src={home2} alt="camera" />
       </StyledImage>
+      */}
     </StyledServices>
   );
 };
 
 const StyledServices = styled(StyledAbout)`
+  background-image: url(https://images.unsplash.com/photo-1542700807-5fd66f9bdb79?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
   h2 {
     padding-bottom: 5rem;
   }
@@ -72,12 +93,12 @@ const StyledServices = styled(StyledAbout)`
 `;
 
 const StyledCards = styled.div`
+  justify-content: space-between;
   @media (max-width: 1300px) {
     justify-content: center;
   }
   display: flex;
   flex-wrap: wrap;
-  
 `;
 
 const StyledCard = styled.div`
