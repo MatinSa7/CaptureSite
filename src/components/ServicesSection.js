@@ -25,30 +25,30 @@ const ServicesSection = () => {
         <StyledCards>
           <StyledCard>
             <div className="icon">
-              <embed src={clock} alt="clock" />
-              <h3>efficient</h3>
+              <embed style={{margin: "0rem 0rem 0rem 3.2rem"}} src={clock} alt="clock" />
+              <h3 style={{margin: "0rem 0rem 0rem 2rem"}}>EFFICIENT</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </StyledCard>
           <StyledCard>
             <div className="icon">
-              <embed src={teamwork} alt="teamwork" />
-              <h3>teamwork</h3>
+              <embed style={{margin: "0rem 0rem 0rem 3.6rem"}} src={teamwork} alt="teamwork" />
+              <h3 style={{margin: "0rem 0rem 0rem 1.5rem"}}>TEAMWORK</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </StyledCard>
 
           <StyledCard>
             <div className="icon">
-              <embed src={diaphragm} alt="diaphragm" />
-              <h3>diaphragm</h3>
+              <embed style={{margin: "0rem 0rem 0rem 3.6rem"}} src={diaphragm} alt="diaphragm" />
+              <h3 style={{margin: "0rem 0rem 0rem 1.4rem"}}>DIAPHRAGM</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </StyledCard>
           <StyledCard>
             <div className="icon">
-              <embed src={money} alt="money" />
-              <h3>affordable</h3>
+              <embed style={{margin: "0rem 0rem 0rem 3.7rem"}} src={money} alt="money" />
+              <h3 style={{margin: "0rem 0rem 0rem 1.1rem"}}>AFFORDABLE</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </StyledCard>
@@ -77,15 +77,14 @@ const StyledCards = styled.div`
   }
   display: flex;
   flex-wrap: wrap;
+  
 `;
 
 const StyledCard = styled.div`
   flex-basis: 20rem;
   .icon {
-    display: flex;
     align-items: center;
     h3 {
-      margin-left: 1rem;
       color: white;
       padding: 1rem;
     }

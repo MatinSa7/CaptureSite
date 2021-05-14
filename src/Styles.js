@@ -21,7 +21,7 @@ export const StyledDescription = styled.div`
   flex: 1;
   padding-right: 5rem;
   h2 {
-    font-weight: lighter;
+    font-weight: bold;
   }
   @media (max-width: 1300px) {
     padding: 0;
