@@ -57,7 +57,7 @@ const MovieDetail = () => {
     }
     .line {
       width: 100%;
-      background: #23d997;
+      background: #3500d3;
       height: 0.5rem;
       margin: 1rem 0rem;
     }

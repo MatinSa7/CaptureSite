@@ -89,7 +89,7 @@ const StyledMovie = styled(motion.div)`
   padding-bottom: 10rem;
   .line {
     height: 0.5rem;
-    background: #23d997;
+    background: #3500d3;
     margin-bottom: 3rem;
   }
   img {
@@ -109,7 +109,7 @@ const Frame1 = styled(motion.div)`
   top: 10%;
   width: 100%;
   height: 100vh;
-  background: #fffebf;
+  background: #0C0032;
   z-index: 1;
 `;
 
@@ -119,7 +119,7 @@ const Frame2 = styled(motion.div)`
   top: 10%;
   width: 100%;
   height: 100vh;
-  background: #ff8efb;
+  background: #190061;
   z-index: 1;
 `;
 
@@ -129,7 +129,7 @@ const Frame3 = styled(motion.div)`
   top: 10%;
   width: 100%;
   height: 100vh;
-  background: #8ed2ff;
+  background: #240090;
   z-index: 1;
 `;
 
@@ -139,7 +139,7 @@ const Frame4 = styled(motion.div)`
   top: 10%;
   width: 100%;
   height: 100vh;
-  background: #8effa0;
+  background: #3500D3;
   z-index: 1;
 `;
 

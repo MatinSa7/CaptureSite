@@ -43,6 +43,10 @@ const ContactUs = () => {
   );
 };
 
+const SocialMedia = styled.div`
+
+`
+
 const ContactStyled = styled(motion.div)`
   padding: 5rem 10rem;
   color: #353535;
