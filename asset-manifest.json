@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/CaptureSite/static/js/main.0480c6c9.chunk.js",
-    "main.js.map": "/CaptureSite/static/js/main.0480c6c9.chunk.js.map",
+    "main.js": "/CaptureSite/static/js/main.380710df.chunk.js",
+    "main.js.map": "/CaptureSite/static/js/main.380710df.chunk.js.map",
     "runtime-main.js": "/CaptureSite/static/js/runtime-main.86c492b7.js",
     "runtime-main.js.map": "/CaptureSite/static/js/runtime-main.86c492b7.js.map",
     "static/js/2.6f742eb1.chunk.js": "/CaptureSite/static/js/2.6f742eb1.chunk.js",
@@ -12,20 +12,20 @@
     "static/js/2.6f742eb1.chunk.js.LICENSE.txt": "/CaptureSite/static/js/2.6f742eb1.chunk.js.LICENSE.txt",
     "static/media/athlete-small.9c7a85d4.png": "/CaptureSite/static/media/athlete-small.9c7a85d4.png",
     "static/media/athlete2.b216a5ad.png": "/CaptureSite/static/media/athlete2.b216a5ad.png",
-    "static/media/clock.4b7cde7e.svg": "/CaptureSite/static/media/clock.4b7cde7e.svg",
-    "static/media/diaphragm.db801491.svg": "/CaptureSite/static/media/diaphragm.db801491.svg",
+    "static/media/clock.542d6368.svg": "/CaptureSite/static/media/clock.542d6368.svg",
+    "static/media/diaphragm.2130b091.svg": "/CaptureSite/static/media/diaphragm.2130b091.svg",
     "static/media/good-times2.4ea1be17.jpg": "/CaptureSite/static/media/good-times2.4ea1be17.jpg",
     "static/media/goodtimes-small.94ab060d.png": "/CaptureSite/static/media/goodtimes-small.94ab060d.png",
     "static/media/home1.9836de69.png": "/CaptureSite/static/media/home1.9836de69.png",
     "static/media/home2.a65a4256.png": "/CaptureSite/static/media/home2.a65a4256.png",
-    "static/media/money.72da7c48.svg": "/CaptureSite/static/media/money.72da7c48.svg",
-    "static/media/teamwork.aa71db2e.svg": "/CaptureSite/static/media/teamwork.aa71db2e.svg",
+    "static/media/money.1c02889b.svg": "/CaptureSite/static/media/money.1c02889b.svg",
+    "static/media/teamwork.69072c3e.svg": "/CaptureSite/static/media/teamwork.69072c3e.svg",
     "static/media/the-racer2.580f15cd.jpg": "/CaptureSite/static/media/the-racer2.580f15cd.jpg",
     "static/media/theracer-small.51874213.png": "/CaptureSite/static/media/theracer-small.51874213.png"
   },
   "entrypoints": [
     "static/js/runtime-main.86c492b7.js",
     "static/js/2.6f742eb1.chunk.js",
-    "static/js/main.0480c6c9.chunk.js"
+    "static/js/main.380710df.chunk.js"
   ]
 }
