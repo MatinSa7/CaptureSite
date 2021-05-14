@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { withTheme } from "styled-components";
 import athlete from "../img/athlete-small.png";
 import theracer from "../img/theracer-small.png";
 import goodtimes from "../img/goodtimes-small.png";
@@ -22,6 +22,7 @@ const OurWork = () => {
   const [element2, controls2] = useScroll();
   return (
     <StyledWork
+      style={{background: "#fff"}}
       exit="exit"
       variants={pageAnimation}
       initial="hidden"
@@ -78,7 +79,7 @@ const StyledWork = styled(motion.div)`
   background: #1b1b1b;
   h2 {
     padding: 1rem 0rem;
-    color: white;
+    color: black;
   }
   @media (max-width: 1300px) {
     padding: 2rem 2rem;

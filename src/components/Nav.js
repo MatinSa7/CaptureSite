@@ -72,6 +72,7 @@ const StyledNav = styled.nav`
   li {
     padding-left: 10rem;
     position: relative;
+    font-weight: bold;
   }
 
   @media (max-width: 1300px) {
