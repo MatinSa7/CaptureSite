@@ -15,7 +15,7 @@ const Nav = () => {
       </h1>
       <ul>
         <li>
-          <Link to="/CaptureSite/">1. About Us</Link>
+          <Link to="/CaptureSite/">About Us</Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
@@ -23,7 +23,7 @@ const Nav = () => {
           />
         </li>
         <li>
-          <Link to="/Work">2. Our Work</Link>
+          <Link to="/Work">Our Work</Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
@@ -31,13 +31,14 @@ const Nav = () => {
           />
         </li>
         <li>
-          <Link to="/Contact">3. Contact Us</Link>
+          <Link to="/Contact">Contact Us</Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
             animate={{ width: pathname === "/Contact" ? "50%" : "0%" }}
           />
         </li>
+        
       </ul>
     </StyledNav>
   );
@@ -63,7 +64,8 @@ const StyledNav = styled.nav`
     list-style: none;
   }
   #logo {
-    font-size: 1.5rem;
+    margin-left: 1rem;
+    font-size: 2.75rem;
     font-family: "Lobster", cursive;
     font-weight: lighter;
   }
@@ -95,7 +97,7 @@ const Line = styled(motion.div)`
     left: 0%;
   }
   height: 0.3rem;
-  background: #23d997;
+  background: #3500d3;
   width: 0;
   position: absolute;
   bottom: -80%;

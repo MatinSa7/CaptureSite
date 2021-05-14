@@ -25,14 +25,14 @@ const ServicesSection = () => {
         <StyledCards>
           <StyledCard>
             <div className="icon">
-              <img src={clock} alt="clock" />
+              <embed src={clock} alt="clock" />
               <h3>efficient</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </StyledCard>
           <StyledCard>
             <div className="icon">
-              <img src={teamwork} alt="teamwork" />
+              <embed src={teamwork} alt="teamwork" />
               <h3>teamwork</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
@@ -40,14 +40,14 @@ const ServicesSection = () => {
 
           <StyledCard>
             <div className="icon">
-              <img src={diaphragm} alt="diaphragm" />
+              <embed src={diaphragm} alt="diaphragm" />
               <h3>diaphragm</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </StyledCard>
           <StyledCard>
             <div className="icon">
-              <img src={money} alt="money" />
+              <embed src={money} alt="money" />
               <h3>affordable</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
@@ -55,7 +55,7 @@ const ServicesSection = () => {
         </StyledCards>
       </StyledDescription>
       <StyledImage>
-        <img src={home2} alt="camera" />
+        <embed src={home2} alt="camera" />
       </StyledImage>
     </StyledServices>
   );
@@ -86,8 +86,7 @@ const StyledCard = styled.div`
     align-items: center;
     h3 {
       margin-left: 1rem;
-      background: white;
-      color: black;
+      color: white;
       padding: 1rem;
     }
   }

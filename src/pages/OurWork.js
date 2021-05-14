@@ -22,7 +22,6 @@ const OurWork = () => {
   const [element2, controls2] = useScroll();
   return (
     <StyledWork
-      style={{ backgroundColor: "#fff" }}
       exit="exit"
       variants={pageAnimation}
       initial="hidden"
@@ -76,9 +75,10 @@ const StyledWork = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
   padding: 5rem 10rem;
-  background: white;
+  background: #1b1b1b;
   h2 {
     padding: 1rem 0rem;
+    color: white;
   }
   @media (max-width: 1300px) {
     padding: 2rem 2rem;

@@ -8,7 +8,6 @@ import ScrollTop from "../components/ScrollTop";
 const ContactUs = () => {
   return (
     <ContactStyled
-      style={{ backgroundColor: "#fff" }}
       exit="exit"
       variants={pageAnimation}
       initial="hidden"
@@ -51,6 +50,9 @@ const ContactStyled = styled(motion.div)`
   @media (max-width: 1500px) {
     padding: 2rem;
     font-size: 1rem;
+    h2 {
+      font-size: 2rem;
+    }
   }
 `;
 
@@ -58,6 +60,11 @@ const Title = styled.div`
   @media (max-width: 1500px) {
     margin-top: 5rem;
   }
+  h2 {
+    font-size: 4rem;
+    color: #3500d3;
+  }
+  font-weight: lighter;
   margin-bottom: 4rem;
   color: black;
 `;
@@ -71,13 +78,15 @@ const SocialStyled = styled(motion.div)`
   align-items: center;
   h2 {
     margin: 2rem;
+    font-size: 3rem;
+    color: white;
   }
 `;
 
 const Circle = styled.div`
   border-radius: 50%;
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
   background: #353535;
 `;
 
