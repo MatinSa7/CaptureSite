@@ -13,9 +13,18 @@ import {
   StyledHide,
 } from "../Styles";
 
+import { useScroll } from "./useScroll";
+import { scrollReveal } from "../animation";
+
 const AboutSection = () => {
+  const [element, controls] = useScroll();
   return (
-    <StyledAboutBackground className="about">
+    <StyledAboutBackground
+      variants={scrollReveal}
+      ref={element}
+      animate={controls}
+      initial="hidden"
+    >
       <StyledDescription>
         <motion.div>
           <StyledHide>
