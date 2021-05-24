@@ -17,7 +17,8 @@ export const StyledAbout = styled(motion.div)`
 `;
 
 export const StyledAboutBackground = styled(motion.div)`
-  background-image: url(https://miro.medium.com/max/10944/1*AnkPF5SvLCuJxxsHL9IzWQ.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), transparent),
+    url(https://miro.medium.com/max/10944/1*AnkPF5SvLCuJxxsHL9IzWQ.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 90vh;

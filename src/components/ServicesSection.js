@@ -80,7 +80,8 @@ const ServicesSection = () => {
 };
 
 const StyledServices = styled(StyledAbout)`
-  background-image: url(https://images.unsplash.com/photo-1542700807-5fd66f9bdb79?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), transparent),
+    url(https://images.unsplash.com/photo-1542700807-5fd66f9bdb79?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80);
   background-repeat: no-repeat;
   background-size: cover;
   h2 {
